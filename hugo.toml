@@ -1,0 +1,45 @@
+baseURL = 'https://kiplangat.dev/'
+languageCode = 'en-us'
+title = 'Personal website of Kiplangat'
+theme = "smol"
+
+[params]
+    subtitle = "Recreational computer programmer"
+    dateFmt = "02.01.2006 15:04"
+
+# Header
+[menu]
+  [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 1 
+
+  [[menu.main]]
+        identifier = "categories"
+        name = "Categories"
+        url = "/categories/"
+        weight = 2 
+
+  [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 3
+        
+
+# Footer
+  [[menu.footer]]
+        name = "Github"
+        url = "https://github.com/elkiplangat"
+        weight = 1 
+
+    [[menu.footer]]
+        name = "Linkedin"
+        url = "https://Linkedin.com/in/kiplangat-erick"
+        weight = 2 
+
+    [[menu.footer]]
+        name = "Email"
+        url = "mailto:elkiplangat@gmail.com"
+        weight = 3 
